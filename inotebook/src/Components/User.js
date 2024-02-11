@@ -48,7 +48,6 @@ const User = (props) => {
       <div className="container mt-5">
         <h1 className="m-4">Hello, {capitalize(user.name)}</h1>
         <div className=" card mt-4 p-4" style={{ width: "60%", left: "0" }}>
-          <h4>User_Id - {user._id}</h4>
           <h4>Name - {capitalize(user.name)}</h4>
           <h4>Email-Id - {user.email}</h4>
         </div>
